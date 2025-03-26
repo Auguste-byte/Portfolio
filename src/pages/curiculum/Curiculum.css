@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.curiculum-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-components {
+    width: 30%;
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(76, 76, 80, 0.5); 
+    font-family: "Inter";
+  }
+  
+  .right-components {
+    width: 65%; 
+    display: flex;
+    flex-direction: column; /* Alignement en colonne */
+    gap: 20px; /* Espace entre les deux composants */
+    font-family: "Inter";
+    
+  }
+  
+  .right-components > div {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(76, 76, 80, 0.5); 
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .right-components .formation {
+    flex: 1; 
+  }
+  
+  
+  /* Styles pour les titres */
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.0;
+  }
+  
+  li {
+    margin: 5px 0;
+    font-size: 0.5;
+  }
+  
