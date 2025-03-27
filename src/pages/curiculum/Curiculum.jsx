@@ -8,7 +8,7 @@ const curiculum = () => {
    return (
     <div className="curiculum-container">
         <div className="left-components">
-            <a href="../../document/PLEINTEL_CV-2.pdf" style={{ textDecoration: "none", color: "white" }} download>
+            <a href="../../../public/document/PLEINTEL_CV-2.pdf" style={{ textDecoration: "none", color: "white" }} download>
                 Télécharger mon CV
             </a>
             <div className="technologies">
