@@ -17,7 +17,7 @@ const userDatas = {
         {language: "Français", niveau:"(langue maternelle)"},
         {language: "Anglais", niveau:"(débutant)"}, 
     ],
-    technologies: ["Javascript", "React", "css", "GitHub", "NodeJS"],
+    technologies: ["Javascript", "React", "css", "GitHub", "NodeJS", "Wordpress"],
     softSkills: [
         { softName: "Adaptation", description: "Mon expèrience dans différents domaines variés et ma curiosité m'ont amené à découvrir de nouvelles choses en premanance, me poussant à m'adapter pour maitriser de nouvelles compétences et réagir à des situation inattendues" },
         { softName: "Ecoute", description: "écoute"},

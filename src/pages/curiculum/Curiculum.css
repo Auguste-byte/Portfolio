@@ -13,8 +13,9 @@
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: rgba(76, 76, 80, 0.5); 
+    background-color: black; 
     font-family: "Inter";
+    color: white;
   }
   
   .right-components {
@@ -23,13 +24,13 @@
     flex-direction: column; /* Alignement en colonne */
     gap: 20px; /* Espace entre les deux composants */
     font-family: "Inter";
-    
+    color: white;
   }
   
   .right-components > div {
     border: 2px solid rgba(255, 255, 255, 0.5);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: rgba(76, 76, 80, 0.5); 
+    background-color: black; 
     border-radius: 10px;
     padding: 20px;
   }
@@ -41,18 +42,29 @@
   
   /* Styles pour les titres */
   h2 {
+    font-size: 1.0rem;
+    margin-top: 15px;
+    font-family: "Boldonse";
+    color: white;
+  }
+
+  h1 {
     font-size: 1.5rem;
     margin-top: 15px;
+    font-family: "Boldonse";
+    color: white;
   }
   
   ul {
     list-style-type: none;
     padding-left: 0;
     font-size: 1.0;
+    color: white;
   }
   
   li {
     margin: 5px 0;
     font-size: 0.5;
+    color: white;
   }
   

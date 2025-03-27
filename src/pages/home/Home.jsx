@@ -29,7 +29,6 @@ const home = () => {
           </div>
         ))}
       </div>
-
       <div className="story-navigation">
         <button onClick={goToPreviousPlan} disabled={currentPlan === 0}>
           &#8592;
