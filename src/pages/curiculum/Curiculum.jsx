@@ -4,11 +4,13 @@ import userPath from "../../data/UserPath.jsx";
 import "./Curiculum.css"
 
 const curiculum = () => {
+
+
     
    return (
     <div className="curiculum-container">
         <div className="left-components">
-            <a href="https://github.com/auguste-byte/Portfolio/blob/gh-pages/document/PLEINTEL_CV-2.pdf" style={{ textDecoration: "none", color: "white" }} download>
+            <a href="https://raw.githubusercontent.com/auguste-byte/Portfolio/gh-pages/document/PLEINTEL_CV-2.pdf" style={{ textDecoration: "none", color: "white" }} download>
                 Télécharger mon CV
             </a>
             <div className="technologies">
