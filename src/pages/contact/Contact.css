@@ -17,7 +17,6 @@
     width: 25%;
     margin-right: 20px;
     padding: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: black; 
     border-radius: 10px;
@@ -33,7 +32,6 @@
     align-items: center;
     gap: 20px; /* Espace entre les deux composants */
     font-family: "Inter";
-    border: 2px solid rgba(255, 255, 255, 0.5);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: black; 
     border-radius: 10px;
@@ -63,4 +61,11 @@
 .leaflet-container {
     width: 100%;
     height: 100%;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    justify-content: center;
   }

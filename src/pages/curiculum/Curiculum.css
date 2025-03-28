@@ -10,7 +10,7 @@
     width: 30%;
     margin-right: 20px;
     padding: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: black; 
@@ -28,7 +28,7 @@
   }
   
   .right-components > div {
-    border: 2px solid rgba(255, 255, 255, 0.5);
+ 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: black; 
     border-radius: 10px;

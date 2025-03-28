@@ -12,6 +12,7 @@ const userDatas = {
     socialMedia: [
         {media: "Linkedin", link: "https://www.linkedin.com/in/louis-pleintel-67260a293/"},
         {media: "GitHub", link: "https://github.com/Auguste-byte"},
+        {media: "Instagram", link: "https://www.instagram.com/louis_cormique/"}
     ],
     languages: [
         {language: "Français", niveau:"(langue maternelle)"},
