@@ -34,14 +34,14 @@ const Contact = () => {
                     </div>
                     <div className="github-link">  
                         <a href={githubLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "white" }}>
-                        <div style={{ display: "flex", gap: "10px", fontSize: "2rem" }}>
+                            <div style={{ display: "flex", gap: "10px", fontSize: "2rem" }}>
                                 <FaGithub style={{ color: "#ffffff" }} />
                             </div>
                         </a>
                     </div>
                     <div className="instagram-link">  
                         <a href={instaLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "white" }}>
-                        <div style={{ display: "flex", gap: "10px", fontSize: "2rem" }}>
+                            <div style={{ display: "flex", gap: "10px", fontSize: "2rem" }}>
                                 <FaInstagram style={{ color: "#ffffff" }} />
                             </div>
                         </a>

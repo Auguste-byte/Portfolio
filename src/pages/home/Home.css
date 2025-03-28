@@ -4,11 +4,11 @@
 
 .story-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     overflow: hidden;
     padding: 20px;
-    margin-top: 20px; /* Décalage du conteneur du header */
-    height: 62vh; /* Prend toute la hauteur disponible */
+    margin-top: 20px; 
+    height: 62vh;
 }
 
 .story-slider {
@@ -45,18 +45,8 @@
     color: black;
 }
 
-.story-navigation {
-    display: flex;            /* Utilisation de flexbox pour aligner les boutons */
-    justify-content: center;  /* Centre horizontalement les boutons */
-    align-items: center;      /* Centre verticalement les boutons (utile si tu as des hauteurs variables) */
-    gap: 20px;  
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%; /* Espacement entre les boutons */
-}
 
-.story-navigation button {
+.c button {
     display: inline;
     font-size: 30px;
     background-color: transparent;
@@ -67,5 +57,13 @@
 
 .story-navigation button:disabled {
     cursor: not-allowed;
+}
+
+.story-navigation {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 2;
 }
 

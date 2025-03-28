@@ -1,5 +1,6 @@
 import userDatas from "../../data/UserData";
 import { Link } from "react-router-dom"
+import { FaHome } from "react-icons/fa";
 import "./Header.css"
 
 const Header = () => {
@@ -14,7 +15,13 @@ const Header = () => {
             <div className="projects-link"><Link to="/projects">Projets</Link></div>
             <div className="curiculum-link"><Link to="/curiculum">Curiculum</Link></div>
             <div className="contact-link"><Link to="/contact">Contact</Link></div>
-            <div className="home-link"><Link to="/Portfolio"><img src="src/assets/domicile.png" alt="Home" className="home-image"/></Link></div>
+            <div className="home-link">
+                <Link to="/Portfolio"> 
+                    <div style={{ display: "flex", gap: "10px", fontSize: "2rem" }}>
+                                <FaHome style={{ color: "#ffffff" }} />
+                    </div>
+                </Link>
+            </div>
         </div>
     </header>
 )};

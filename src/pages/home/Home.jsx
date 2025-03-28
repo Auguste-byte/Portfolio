@@ -21,6 +21,9 @@ const home = () => {
 
   return (
     <div className="story-container">
+      <button className="story-navigation" onClick={goToPreviousPlan} disabled={currentPlan === 0}>
+      &#9665;
+      </button>
       <div className="story-slider" style={{ transform: `translateX(-${currentPlan * 100}%)` }}>
         {story.map((plan, index) => (
           <div className="story-plan" key={index}>
@@ -29,16 +32,12 @@ const home = () => {
           </div>
         ))}
       </div>
-      <div className="story-navigation">
-        <button onClick={goToPreviousPlan} disabled={currentPlan === 0}>
-          &#8592;
-        </button>
-        <button onClick={goToNextPlan} disabled={currentPlan === story.length - 1}>
-          &#8594;
-        </button>
-      </div>
+      <button className="story-navigation" onClick={goToNextPlan} disabled={currentPlan === story.length - 1}>
+        &#9655;
+      </button>
     </div>
   );
+  
 };
 
 export default home;
