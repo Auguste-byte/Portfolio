@@ -1,71 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .contact-container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-  
-  }
+    flex-wrap: wrap;
+}
 
-.left-elements{
+.left-elements {
     width: 25%;
     margin-right: 20px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: black; 
+    background-color: black;
     border-radius: 10px;
     font-family: "Boldonse";
     font-size: 0.7em;
     color: white;
 }
 
-.right-elements{
-    width: 65%; /* La largeur totale de la section droite */
+.right-elements {
+    width: 65%;
     display: flex;
-    justify-content: center; /* Centre horizontalement */
+    justify-content: center;
     align-items: center;
-    gap: 20px; /* Espace entre les deux composants */
+    gap: 20px;
     font-family: "Inter";
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: black; 
+    background-color: black;
     border-radius: 10px;
     padding: 20px;
     color: white;
 }
-
 
 .adress, .adress-media {
     padding: 10px;
     margin-bottom: 30px;
 }
 
-.social-media{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.map {
-    width: 100%;
-    height: auto; /* Ajuste la hauteur selon ton besoin */
-    color: black;
-  }
-
-
-.leaflet-container {
-    width: 100%;
-    height: 100%;
-  }
-
-  .social-media {
+.social-media {
     display: flex;
     flex-direction: row;
     gap: 25%;
     justify-content: center;
-  }
+}
+
+.map, .leaflet-container {
+    width: 100%;
+    height: 75vh;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 992px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-elements, .right-elements {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .social-media {
+        gap: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left-elements, .right-elements {
+        width: 100%;
+    }
+
+    .right-elements {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact-container {
+        padding: 10px;
+    }
+
+    .left-elements, .right-elements {
+        padding: 15px;
+    }
+
+    .social-media {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+}
