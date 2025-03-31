@@ -49,7 +49,6 @@
     display: flex;
     flex-direction: row;
     gap: 25%;
-    justify-content: center;
 }
 
 .map, .leaflet-container {
@@ -94,8 +93,7 @@
     }
 
     .social-media {
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
-        align-items: center;
     }
 }
